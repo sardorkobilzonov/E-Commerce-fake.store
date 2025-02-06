@@ -1,17 +1,12 @@
 import React from "react";
-import Home from "../../../pages/home/Home";
-import About from "../../../pages/about/About";
-import Contact from "../../../pages/contact/Contact";
-import Shop from "../../../pages/shop/Shop";
-import Login from "../../../pages/login/Login";
-import Register from "../../../pages/register/Register";
+
 import { FaRegUser } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
 import { SlBasket } from "react-icons/sl";
 import { IoIosHeartEmpty } from "react-icons/io";
 import girl from "../../../assets/Girl-top.png";
 
-import { Route, Routes, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -37,14 +32,6 @@ const Navbar = () => {
           <SlBasket color="blue" fontSize={18} />
           <IoIosHeartEmpty color="blue" fontSize={18} />
         </div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-        </Routes>
       </div>
       <div className="mb-20 ">
         <div

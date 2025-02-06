@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/header/navbar/Navbar";
+import Detail from "./components/products/Detail/Detail";
 // import Products from "./components/products/Products";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Main />
       {/* <Products /> */}
+      <Detail />
       <Footer />
     </>
   );
